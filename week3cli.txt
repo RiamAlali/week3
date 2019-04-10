@@ -1,0 +1,13 @@
+Last login: Wed Apr 10 15:24:42 on console
+Riams-MacBook-Pro:~ riamalali$ cd desktop
+Riams-MacBook-Pro:desktop riamalali$ ls
+HYF homework			codecademy.commandline.pages
+Riam's				untitled folder
+clihomework.txt			week2
+Riams-MacBook-Pro:desktop riamalali$ mkdir folder && cd folder && touch blank
+Riams-MacBook-Pro:folder riamalali$ for i in {1..5}; do echo "Hello" >> greetings.txt; done
+Riams-MacBook-Pro:folder riamalali$ for i in {1..5}; do cp greetings.txt $i.txt; done
+Riams-MacBook-Pro:folder riamalali$ echo "cat" >> pets.txt | echo "dog" >> pets.txt | echo "hamster">> pets.txt
+Riams-MacBook-Pro:folder riamalali$ echo "cat" >> commands.txt | echo "ls">> commands.txt | echo "pwd" >> commands.txt
+Riams-MacBook-Pro:folder riamalali$ cat pets.txt commands.txt | sort | uniq > lovelyCommands.txt
+Riams-MacBook-Pro:folder riamalali$ 
